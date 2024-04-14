@@ -1,0 +1,20 @@
+POST http://localhost:7009/api/healthshop/
+
+{
+ "name": "Vitamin ttryr D3 5000 IU",
+        "category": "Vitamin",
+        "description": "Hjælper med at opretholde sunde knogler og tænder.",
+        "price": 15,
+        "calories": 0
+
+}
+###
+PUT http://localhost:7009/api/healthshop/1
+
+{
+  "name": "Vitamin ttryr D3 5000 IU",
+  "category": "Vitamin",
+  "description": "Hjælper med at opretholde sunde knogler og tænder.",
+  "price": 15,
+  "calories": 0
+}
